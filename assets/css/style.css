@@ -4,6 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* General style */
 body {
     min-height: 100vh;
     display: flex;
@@ -11,14 +13,32 @@ body {
     color: #3a3a3a;
 }
 
+/* header */
 header {
-    background-color: bisque;
-
+    background-color: hsl(210, 4, 56);
 }
+
+/* header section */
+#logo {
+    padding: 20px;
+    margin: 30px;
+    height: 75%;
+    width: 10%;
+    align-items: end;
+}
+
+h1 {
+    text-align: center;
+    color: #3a3a3a;
+}
+
+/* main */
 main {
     background-color: blanchedalmond;
     flex: 1 0 auto;
 }
+
+/* footer */
 footer {
     background-color: brown;
 }
