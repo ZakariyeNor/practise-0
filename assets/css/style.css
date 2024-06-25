@@ -15,21 +15,19 @@ body {
 
 /* header */
 header {
-    background-color: hsl(210, 4, 56);
+    background-color: hsl(190, 44%, 22%);
 }
-
-/* header section */
 #logo {
-    padding: 20px;
-    margin: 30px;
-    height: 75%;
-    width: 10%;
-    align-items: end;
+    display: flex;
+    align-items: flex-end;
+    padding: 1rem 95% 50px 0;
+    margin: 10px 14px;
 }
 
-h1 {
-    text-align: center;
-    color: #3a3a3a;
+.man-logo {
+    width: 11rem;
+    height: 11rem;
+    border-radius: 10px 20px;
 }
 
 /* main */
