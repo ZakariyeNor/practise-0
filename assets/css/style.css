@@ -1,5 +1,8 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 /* wildcard selector */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,16 +15,16 @@ body {
     flex-direction: column;
     color: #3a3a3a;
     /* Generic style */
-    font-family: 'paratype', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* header */
 header {
     background-color: hsl(190, 5%, 47%);
-} 
+    font-family: 'lato', sans-serif;
+}
 
-h1 { 
-    font-family: 'open-suns', sans-serif;
+h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ffffffd7;
@@ -32,7 +35,7 @@ h1 {
 
 header a {
     text-decoration: none;
-    font-size: 6px;
+    font-size: 8px;
 }
 
 #logo {
@@ -43,6 +46,28 @@ header a {
     margin-left: 15px;
     border-radius: 2px 2px;
 }
+
+#menu ul {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#drop-down:checked~ nav {
+    display: block;
+}
+
+#menu a {
+    color: #ffffff;
+}
+
+nav {
+    position: absolute;
+    
+}
+
+
 /* main */
 main {
     background-color: blanchedalmond;
@@ -52,6 +77,8 @@ main {
 /* footer */
 footer {
     background-color: brown;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 /* Media query for small devices and phones (min-width: */
