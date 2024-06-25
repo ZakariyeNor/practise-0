@@ -18,35 +18,36 @@ body {
 /* header */
 header {
     background-color: hsl(190, 5%, 47%);
-    
 } 
 
 h1 { 
     font-family: 'open-suns', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #5f5050;
+    color: #ffffffd7;
     text-align: center;
-    transform: translateY(9rem);
+    transform: translateY(55px);
 }
 
 
 header a {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 6px;
 }
 
 #logo {
     display: flex;
     align-items: flex-end;
-    padding: 1rem 95% 50px 0;
-    margin: 10px 14px;
+    padding: 5px 95% 5px 4px;
+    margin: 5px 10px;
+    margin-bottom: 5px;
+    transform: translateY(-15px);
 }
 
 .man-logo {
-    width: 11rem;
-    height: 11rem;
-    border-radius: 10px 20px;
+    width: 4em;
+    height: 4rem;
+    border-radius: 5px 10px;
 }
 
 /* main */
@@ -59,3 +60,5 @@ main {
 footer {
     background-color: brown;
 }
+
+/* Media query for small devices and phones (min-width: */
