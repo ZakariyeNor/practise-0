@@ -37,19 +37,12 @@ header a {
 
 #logo {
     display: flex;
-    align-items: flex-end;
-    padding: 5px 95% 5px 4px;
-    margin: 5px 10px;
-    margin-bottom: 5px;
-    transform: translateY(-15px);
-}
-
-.man-logo {
     width: 4em;
     height: 4rem;
-    border-radius: 5px 10px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 2px 2px;
 }
-
 /* main */
 main {
     background-color: blanchedalmond;
