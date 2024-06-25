@@ -11,12 +11,31 @@ body {
     display: flex;
     flex-direction: column;
     color: #3a3a3a;
+    /* Generic style */
+    font-family: 'paratype', serif;
 }
 
 /* header */
 header {
-    background-color: hsl(190, 44%, 22%);
+    background-color: hsl(190, 5%, 47%);
+    
+} 
+
+h1 { 
+    font-family: 'open-suns', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #5f5050;
+    text-align: center;
+    transform: translateY(9rem);
 }
+
+
+header a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
 #logo {
     display: flex;
     align-items: flex-end;
