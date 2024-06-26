@@ -20,7 +20,31 @@ body {
 
 /* header */
 
-#logo {
+header {
+    background-color: #8c9094;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    padding: 0 16px;
+    box-shadow: 0 2px 2px rgb(173, 111, 135);
+    font-family: 'Oswald', sans-serif;
+}
+
+header a {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#logon {
     display: flex;
     width: 4em;
     height: 4rem;
@@ -29,6 +53,23 @@ body {
     border-radius: 2px 2px;
 }
 
+#menu {
+    font-size: 100%;
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+    color: #ffffff;
+}
+#menu a {
+    color: #ffffff;
+}
+
+.center {
+    border-bottom: 1px solid rgb(74, 133, 135);
+}
 /* main */
 main {
     background-color: blanchedalmond;
