@@ -19,24 +19,6 @@ body {
 }
 
 /* header */
-header {
-    background-color: hsl(190, 5%, 47%);
-    font-family: 'lato', sans-serif;
-}
-
-h1 {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #ffffffd7;
-    text-align: center;
-    transform: translateY(55px);
-}
-
-
-header a {
-    text-decoration: none;
-    font-size: 8px;
-}
 
 #logo {
     display: flex;
@@ -46,27 +28,6 @@ header a {
     margin-left: 15px;
     border-radius: 2px 2px;
 }
-
-#menu ul {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    list-style-type: none;
-}
-
-#drop-down:checked~ nav {
-    display: block;
-}
-
-#menu a {
-    color: #ffffff;
-}
-
-nav {
-    position: absolute;
-    
-}
-
 
 /* main */
 main {
