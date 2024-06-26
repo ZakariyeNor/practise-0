@@ -57,12 +57,12 @@ h1 {
 }
 
 #logon {
-    display: flex;
-    transform: translateX(-210px);
+    position: relative;
     width: 70px;
     height: 70px;
     margin-top: 17px;
     border-radius: 5px;
+    right: 219px;
 }
 
 #menu {
@@ -96,10 +96,20 @@ nav {
 #drop-down:checked~nav {
     display: block;
 }
+
+#drop-down{
+    display: none;
+}
+
+.drop-down-menu {
+    font-size: 2rem;
+}
+
 /* main */
 main {
     background-color: blanchedalmond;
     flex: 1 0 auto;
+    margin-top: 113px;
 }
 
 /* footer */
