@@ -56,19 +56,29 @@ h1 {
 #menu {
     font-size: 100%;
     list-style-type: none;
-    margin-bottom: 1em;
 }
 
 #menu > li {
     margin-bottom: 1em;
-    color: #ffffff;
+    letter-spacing: 4px;
 }
+
 #menu a {
     color: #ffffff;
 }
 
 .center {
     border-bottom: 1px solid rgb(74, 133, 135);
+}
+
+nav {
+    position: absolute;
+    background-color: #8c9094;
+    width: 100%;
+    left: 0;
+    padding: 0 28px;
+    box-shadow: 0 2px 2px rgb(173, 111, 135);
+    display: none;
 }
 /* main */
 main {
