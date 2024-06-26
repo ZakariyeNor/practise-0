@@ -28,6 +28,9 @@ header {
     padding: 0 16px;
     box-shadow: 0 2px 2px rgb(173, 111, 135);
     font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 header a {
@@ -37,20 +40,29 @@ header a {
 
 h1 {
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #ffffff;
-    text-align: center;
-    font-size: 28px;
+    font-size: large;
     font-family: 'Oswald', sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+#logo {
+    text-align: center;
+    color: #32506e;
+    left: 70px;
+    bottom: 30px;
+
 }
 
 #logon {
     display: flex;
-    width: 4em;
-    height: 4rem;
-    margin-bottom: 20px;
-    margin-left: 15px;
-    border-radius: 2px 2px;
+    transform: translateX(-210px);
+    width: 70px;
+    height: 70px;
+    margin-top: 17px;
+    border-radius: 5px;
 }
 
 #menu {
@@ -79,6 +91,10 @@ nav {
     padding: 0 28px;
     box-shadow: 0 2px 2px rgb(173, 111, 135);
     display: none;
+    top: 100%;
+}
+#drop-down:checked~nav {
+    display: block;
 }
 /* main */
 main {
